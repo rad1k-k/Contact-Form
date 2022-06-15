@@ -1,0 +1,113 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+    background: #420516;
+}
+
+.box {
+    width: 320px;
+    padding: 40px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #7D1935;
+    text-align: center;
+}
+
+.box h1 {
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 500;
+    margin-bottom: 35px;
+    font-size: 33px;
+    margin-top: 5px;
+}
+
+input::placeholder {
+    color: rgb(182, 175, 175);
+}
+
+textarea::placeholder {
+    color: rgb(182, 175, 175);
+}
+
+
+.box input[type="text"], .box input[type="email"], textarea {
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #DEBA9D;
+    padding: 15px 10px;
+    width: 200px;
+    color: #bbb;
+    border-radius: 24px;
+    outline: none;
+}
+
+.box input[type="text"]:focus, .box input[type="email"]:focus, textarea:focus {
+    transition: 0.25s;
+    width: 280px;
+    border-color: #E63E6D;
+}
+
+
+.box input[type="submit"] {
+    background: #6d1a31;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    border: 3px solid #fff;
+    padding: 14px 40px;
+    width: 200px;
+    outline: none;
+    color: #fff;
+    border-radius: 24px;
+    cursor: pointer;
+}
+
+.box input[type="submit"]:hover {
+    background: #e03a69;
+    
+    
+}
+
+
+
+/**** THANKS.HTML ****/
+
+.container h1 {
+    text-align: center;
+    margin-top: 150px;
+    color: #fff;
+    font-size: 25px;
+    border-radius: 2%;
+    padding: 5px 10px;
+    font-family: sans-serif;
+    font-weight: 300;
+}
+
+a {
+    text-decoration: none;
+    font-family: sans-serif;
+    padding: 10px;
+    background: #6d1a31;;
+    border-radius: 10px;
+    border: 2px solid #fff;
+    display: block;
+    width: 250px;
+    margin: 80px auto;
+    text-align: center;
+    color: #fff;
+}
+
+a:hover {
+    background: #B42B51;
+    border: 2px solid #B42B51;
+}
